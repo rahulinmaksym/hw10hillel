@@ -17,7 +17,7 @@ public class Main {
         String[] array = {"if", "you", "want to", "like it", "burn", "like sun", "shine",
                 "do not compare", "you are insulting", "if you win", "burn", "yourself", "you need not", "to explain",
                 "if", "you", "want to", "like it", "burn"};
-        List listMadeFromAnArray = listLogic.toList(array);
+        List<String> listMadeFromAnArray = listLogic.toList(array);
         System.out.println(listMadeFromAnArray.toString());
         List<Double> numberList = Arrays.asList(10.0, 4567.0, 345678.0, 10.0, 324.0, 123.0, 123.0,
                 0.1, 321.2, 0.0, 321.0, 31211.0);
